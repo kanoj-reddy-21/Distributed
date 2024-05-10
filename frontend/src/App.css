@@ -1,0 +1,29 @@
+/* Style for the list container */
+.message-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Style for individual list items */
+  .message-item {
+    margin-bottom: 10px; /* Add spacing between list items */
+  }
+  
+  /* Style for message timestamp */
+  .message-timestamp {
+    font-size: 14px; /* Adjust font size */
+    color: #666; /* Light gray color */
+  }
+  
+  /* Style for message content */
+  .message-content {
+    margin-left: 10px; /* Add spacing to the left of the message content */
+  }
+  
+  /* Style for global broadcast */
+  .global-broadcast {
+    color: red; /* Red color for global broadcast */
+    font-weight: bold; /* Bold text for emphasis */
+  }
+  

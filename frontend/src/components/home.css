@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.element {
+  background-color: #f8f9fa; /* Light gray background color */
+  border-radius: 15px;
+  padding: 20px;
+  margin: 50px auto; /* Center the element */
+  max-width: 400px; /* Limit element width */
+}
+
+h1 {
+  font-family: 'OpenSans', Arial, serif;
+  color: #007bff; /* Blue color for the heading */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.neumorphic {
+  box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+    -12px -12px 24px 0 rgba(143, 143, 143, 0.3);
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 20px; /* Increased padding */
+  display: flex;
+  flex-direction: column;
+}
+
+.neumorphic--pressed {
+  box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
+    inset -6px -6px 10px 0 rgba(124, 124, 124, 0.5);
+}
+
+.variation2 {
+  justify-content: space-around;
+}
+
+.variation2 span::after {
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  height: 0.3rem;
+  border-radius: 1rem;
+  width: 50%;
+  margin: 0 auto;
+  background-color: currentColor;
+}
+
+.variation2.notpressed {
+  color: whitesmoke;
+  background-color: #007bff; /* Blue color for the button */
+}
+
+.variation2.pressed {
+  color: #007bff; /* Blue color for the button text */
+  background-color: whitesmoke;
+}
+
+input{
+  font-size: 18px;
+  margin-bottom: 15px; /* Increased margin */
+  padding: 12px;
+  width: 100%; /* Full width input */
+}
+
+input:focus {
+  outline: none !important;
+}
+
+button {
+  padding: 12px 20px; /* Increased padding */
+  font-size: 18px;
+  border-radius: 10%; /* Rounded corners for button */
+  color: #282c34; /* Dark gray color for button text */
+  background-color: #007bff; /* Blue color for button */
+  border: none;
+  cursor: pointer;
+  width: 100%; /* Full width button */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
